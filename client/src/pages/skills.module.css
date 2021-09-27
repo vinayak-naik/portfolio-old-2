@@ -1,0 +1,79 @@
+.container {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+.gridContainer {
+
+}
+.cardContainer {
+  /* background-color: red; */
+  height: 100%;
+  padding: 20px 0 0;
+}
+.cardContainer h1{
+  color:white;
+  text-align: center;
+}
+.skillCardBox{
+    display: flex;
+    justify-content: center;
+}
+.skillCard{
+    background-color: white;
+    padding: 12px 0;
+    border-radius: 10px;
+    width: 70%;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-left: 6px solid rgb(157, 161, 157);
+    border-bottom: 6px solid rgb(135, 141, 135);
+}
+.skillCard:hover{
+    background-color: rgb(129, 126, 126);
+    color: rgb(0, 253, 0);
+    border-color: rgb(93, 187, 93);
+}
+.skillCard p{
+    text-align: center;
+    /* font-weight: bold; */
+}
+
+@media screen and (max-width: 1000px) {
+    .skillCard{
+        width: 80%;
+    }
+  }
+@media screen and (max-width: 800px) {
+    .skillCard{
+        width: 90%;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .skillCard{
+        width: 70%;
+    }
+    .container {
+        height: auto;
+        padding: 0 20px;
+        align-items: flex-start;
+      }
+  }
+@media screen and (max-width: 500px) {
+    .skillCard{
+        width: 80%;
+    }
+  }
+@media screen and (max-width: 450px) {
+    .skillCard{
+        width: 90%;
+    }
+  }
+@media screen and (max-width: 400px) {
+    .skillCard{
+        width: 100%;
+    }
+  }
+

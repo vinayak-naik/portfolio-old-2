@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    padding: 2vw;
+    min-height: 100vh;
+    
+}
+.mainBox{
+    /* background-color: chocolate; */
+    padding: 10px;
+
+}
+.textHead{
+    color: white;
+    line-height: 2;
+}
+.textSubHead{
+    color: white;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.text{
+    color: white;
+    font-size: 18px;
+    line-height: 2;
+}

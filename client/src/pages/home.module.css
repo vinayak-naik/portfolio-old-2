@@ -1,0 +1,152 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.left {
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: red; */
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.right {
+  flex-basis: 50%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  /* background-color: rgb(43, 255, 0); */
+  color: white;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.right > div {
+  display: flex;
+  flex-direction: column;
+}
+.right h1 {
+  font-size: 50px;
+}
+.right h2 {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.photoBox {
+  height: 350px;
+  width: 350px;
+  background-color: wheat;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.button {
+  background-color: green;
+  outline: none;
+  border: none;
+  color: rgb(206, 223, 210);  
+  padding: 6px 8px;
+  border-radius: 5px;
+  margin: 20px 20px 0 0;
+}
+.button:hover {
+  color: white;
+  background-color: rgb(12, 88, 12);
+}
+
+@media screen and (max-width: 1200px) {
+  .photoBox {
+    height: 330px;
+    width: 330px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .photoBox {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .right h1 {
+    font-size: 45px;
+  }
+  .right h2 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 770px) {
+  .container {
+    flex-direction: column;
+  }
+  .left,
+  .right {
+    flex-basis: 100%;
+  }
+  .right {
+    justify-content: flex-start;
+  }
+  .right > div {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .photoBox {
+    margin: 10vh 0 5vh;
+  }
+  .right h1 {
+    font-size: 40px;
+  }
+  .right h2 {
+    font-size: 30px;
+  }
+  .button {
+    margin: 20px;
+    
+    padding: 8px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .photoBox {
+    height: 270px;
+    width: 270px;
+  }
+  .button{
+      margin: 20px 10px;
+      font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .photoBox {
+    height: 250px;
+    width: 250px;
+  }
+  .right h1 {
+    font-size: 35px;
+  }
+  .right h2 {
+    font-size: 25px;
+  }
+
+}
+@media screen and (max-width: 330px) {
+  .photoBox {
+    height: 220px;
+    width: 220px;
+  }
+  .right h1 {
+    font-size: 30px;
+  }
+  .right h2 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 260px) {
+  .photoBox {
+    height: 200px;
+    width: 200px;
+  }
+}

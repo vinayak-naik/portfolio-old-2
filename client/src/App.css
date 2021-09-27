@@ -1,0 +1,44 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    118deg,
+    #ac86e8,
+    #004eff,
+    #431d7d,
+    #004eff,
+    #ac86e8
+  );
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+.contents-box {
+  height: 86vh;
+  width: 96vw;
+  background-color: black;
+  border-radius: 6px;
+  overflow: auto;
+  margin-top: 4vh;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .contents-box {
+    margin-top: 3vh;
+    height: 87vh;
+  }
+}
+@media screen and (max-width: 770px) {
+  .contents-box {
+    margin-top: 2vh;
+    height: 88vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contents-box {
+    margin-top: 1vh;
+    height: 89vh;
+  }
+}

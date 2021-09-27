@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2vw;
+    height: 100%;
+}
+.gridContainer{
+    max-width: 960px;
+    padding: 20px;
+    /* background-color: rgb(226, 209, 209); */
+    border-radius: 6px;
+}
+.gridContainer h1{
+    color: white;
+    font-size: 35px;
+    padding: 10px 0;
+}
+.gridContainer input,.gridContainer textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.textContainer h3{
+    margin: 20px 0 10px;
+    color:white;
+}
+.textContainer p{
+    color:white;
+}
+.buttonBox{
+    display: flex;
+    justify-content: center;
+}
+.submitBtn:disabled{
+    background-color: rgb(236, 243, 236)!important
+}
+.submitBtn{
+    background-color: rgb(23, 146, 23)!important
+}
+.submitBtn:hover{
+    background-color: rgb(10, 110, 24)!important
+}
+
+@media screen and (max-width: 960px) {
+    .container{
+        height: auto;
+    }
+    .textContainer h3{
+        text-align: center;
+    }
+    .textContainer p{
+        text-align: center;
+    }
+  }

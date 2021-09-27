@@ -1,0 +1,60 @@
+.container {
+  /* background-color: rgb(243, 233, 233); */
+  padding: 10px;
+  height: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+
+}
+.container h1 {
+  padding: 10px 20px;
+  color: white;
+  font-size: 35px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.image{
+  border: 2px solid rgb(21, 4, 117);
+}
+.cardDetails > div {
+  padding: 5px;
+}
+.textHead {
+  color: white;
+  font-weight: bold;
+}
+.text {
+  color: white;
+}
+
+button {
+  margin-right: 10px;
+  padding: 4px 8px;
+  margin: 5px;
+  background-color: green;
+  outline: none;
+  border: none;
+  color: rgb(206, 223, 210);
+  border-radius: 5px;
+}
+button:hover {
+  background-color: rgb(31, 138, 31);
+  color: rgb(254, 255, 254);
+}
+.arrowBox{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow{
+  padding-left: 6px;
+  
+}
+
